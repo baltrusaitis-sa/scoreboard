@@ -1,0 +1,103 @@
+body {
+    background-color: aliceblue;
+    color: #EEEEEE;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: #1B244A;
+    border: solid whitesmoke 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px black, 
+    5px 5px 10px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+    padding: 70px 0;
+    width: 575px;
+}
+
+#main-board {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 40px;
+    color: gray;
+    ;
+}
+
+div, button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+div {
+    margin: 21px 0 26px 0;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    font-size: 90px;
+    font-weight: 400;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.point-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button { 
+    background-color: #1B244A;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    width: 45px;
+    height: 45px;
+    border: solid gray 2px;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+#new-game-btn {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+#start-game-btn {
+    display: block;
+    margin: 30px auto 10px auto;
+    width: 150px;
+    color: #F94F6D;
+    border-color: #F94F6D;
+}
+
+#timer-el {
+    margin: 0 auto 20px auto;
+    width: 155px;
+    height: 70px;
+    font-size: 40px;
+}
+
+p {
+    margin: 30px 0 0 0;
+}

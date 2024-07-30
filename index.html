@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <title>Scoreboard</title>
+</head>
+<body>
+
+    <main>
+        <div id="timer-el">00:00</div>
+        <article id="main-board">
+            <section>
+                <h3 id="home-el">HOME</h3>
+                <div id="homeScore">0</div>
+                <article class="point-buttons">
+                    <button onclick="addOnePointHome(); condition()" disabled>+1</button>
+                    <button onclick="addTwoPointsHome(); condition()" disabled>+2</button>
+                    <button onclick="addThreePointsHome(); condition()" disabled>+3</button>
+                </article>
+            </section>
+            <section>
+                <h3 id="guest-el">GUEST</h3>
+                <div id="guestScore">0</div>
+                <article class="point-buttons">
+                    <button onclick="addOnePointGuest(); condition()" disabled>+1</button>
+                    <button onclick="addTwoPointsGuest(); condition()" disabled>+2</button>
+                    <button onclick="addThreePointsGuest(); condition()" disabled>+3</button>
+                </article>
+            </section>
+        </article>
+        <button id="start-game-btn" onclick="startGame()">START GAME</button>
+        <button id="new-game-btn" onclick="newGame()">NEW GAME</button>
+        <p>PRESS "START GAME" TO START</p>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
